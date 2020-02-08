@@ -1,0 +1,54 @@
+---
+marker_config:
+  dictionary: 'DICT_6X6_250'
+  marker_length: 0.2
+
+board_config:
+  # - type: 'cube'
+  #   dictionary: 'DICT_5X5_50'
+  #   marker_length: 0.0470
+  #   border: 0.002
+  #   marker_per_side: 2
+  #   first_marker: 0
+  # - type: 'grid'
+  #   dictionary: 'DICT_5X5_250'
+  #   x: 4
+  #   y: 4
+  #   marker_length: 0.0235
+  #   separation: 0.001
+  #   first_marker: 0
+  - type: 'satellite'
+    dictionary: 'DICT_4X4_50'
+    marker_length: 0.0175
+    border: 0.001
+    marker_per_side: 3
+    first_marker: 0
+  - type: 'grid'
+    dictionary: 'DICT_4X4_50'
+    x: 3
+    y: 3
+    marker_length: 0.0145
+    separation: 0.0007
+    first_marker: 37
+  
+
+space_fixed_ids: 
+  - B001
+
+average_estimations: True
+max_analyzer_list: 10
+max_detection_age: 1
+max_detection_images: 10
+
+number_of_workers: 2
+
+print_in_image: True
+draw_detected_markers: True
+draw_axis: True
+
+cameras:
+  # - PiCam
+  - C920
+  # - camFront:
+  #     frame_id: camFront_color_optical_frame
+

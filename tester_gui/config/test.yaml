@@ -1,0 +1,35 @@
+config:
+  CAP_PROP_BRIGHTNESS:
+    start: 0
+    end: 100
+    step: 10
+  CAP_PROP_CONTRAST:
+    start: 0
+    end: 100
+    step: 10
+  CAP_PROP_SATURATION:
+    start: 0
+    end: 100
+    step: 10
+  # CAP_PROP_HUE:
+  # start: 0
+  # end: 100
+  # step: 10
+  # CAP_PROP_GAIN:
+  # start: 0
+  # end: 100
+  # step: 10
+  # CAP_PROP_EXPOSURE:
+  # start: 0
+  # end: 100
+  # step: 10
+angles:
+  - 0
+  - 45
+  - 90
+  - 135
+  - 180
+  - 225
+  - 270
+  - 315
+  - 360
